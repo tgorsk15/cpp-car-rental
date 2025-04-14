@@ -1,19 +1,22 @@
-
+// #include "car.hpp"
+#include <vector>
 
 class List {
     private:
+        std::vector<Car> cars;
     protected:
     public:
-    List(){
+        List(){
 
-    }
+        }
 
-    ~List(){
+        ~List(){
 
-    }
+        }
 
-    void printList();
-    void updateAction();
-    void addCar();
-    void deleteCar();
+        void printOptions();
+        void updateAction();
+        void addCar();
+        void deleteCar();
+        void printCars();
 };
