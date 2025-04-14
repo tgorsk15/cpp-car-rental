@@ -14,4 +14,6 @@ class List {
 
     void printList();
     void updateAction();
+    void addCar();
+    void deleteCar();
 };

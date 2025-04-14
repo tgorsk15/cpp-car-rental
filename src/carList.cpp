@@ -1,5 +1,6 @@
 #include <iostream>
 #include "include/carList.hpp"
+#include "include/car.hpp"
 
 
 void List::printList()
@@ -37,4 +38,22 @@ void List::updateAction()
     std::cout << "Enter your choice and submit ";
 
     std::cin >> choice;
+
+    if (choice == 1) {
+        addCar();
+    }
+    else if (choice == 2) {
+        deleteCar();
+    }
+}
+
+void List::addCar()
+{
+    Car car;
+    // create car object, than trigger DB funciton
+}
+
+void List::deleteCar()
+{
+
 }
