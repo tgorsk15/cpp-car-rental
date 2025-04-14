@@ -16,6 +16,25 @@ void List::printList()
     if (choice == 1) {
         std::cout << "We do not have any vehicles currently available";
     }
+    else if (choice == 2) {
+        std::cout << "Feature not yet available";
+    }
+    else if (choice == 3) {
+        updateAction();
+    }
+
 }
 
-// plug into Claude
+
+void List::updateAction()
+{
+    int choice;
+
+    std::cout << "\n\n\n\n";
+    std::cout << "1 - Add a vehicle to the Database\n";
+    std::cout << "2 - Remove a vehicle from Database\n\n";
+
+    std::cout << "Enter your choice and submit ";
+
+    std::cin >> choice;
+}

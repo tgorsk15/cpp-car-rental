@@ -9,8 +9,9 @@ class List {
     }
 
     ~List(){
-        
+
     }
 
     void printList();
+    void updateAction();
 };
