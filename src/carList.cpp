@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "include/carList.hpp"
-#include "include/car.hpp"
+// #include "include/car.hpp"
 
 
 void List::printOptions()
@@ -61,7 +61,7 @@ void List::addCar()
     // will need to set up a displayCars() function in List Class
     // look at Claude prompt for reference
 
-    // FIRST FIX the error with Car notnbeing recognized and using header guards properly
+    // FIRST FIX the error with Car not being recognized and using header guards properly
 }
 
     

@@ -9,7 +9,7 @@ int main()
 
     std::cout << "Welcome to Joey Mac's Car Rental Service\n";
 
-    mainList.printList();
+    mainList.printOptions();
 
 
 }

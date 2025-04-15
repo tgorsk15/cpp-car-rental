@@ -1,3 +1,6 @@
+#ifndef CAR_H
+#define CAR_H
+
 #include <string>
 
 class Car {
@@ -23,3 +26,5 @@ class Car {
         }
         void createCar();
 };
+
+#endif
